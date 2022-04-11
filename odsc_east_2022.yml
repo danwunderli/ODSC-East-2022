@@ -1,0 +1,20 @@
+name: odsc_east_2022
+channels:
+  - conda-forge
+dependencies:
+  - python = 3.10.4
+  - matplotlib = 3.5.1
+  - pandas = 1.4.2
+  - scikit-learn = 1.0.2
+  - numpy = 1.21.5
+  - py-xgboost = 1.5.1
+  - shap = 0.40.0
+  - ipywidgets
+  - jupyter_client
+  - jupyter_core
+  - jupyterlab
+  - jupyterlab_server
+  - jupytext
+  - rise
+prefix: /opt/conda
+
